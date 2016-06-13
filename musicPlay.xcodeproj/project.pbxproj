@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B190E7441D0E602900963035 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7431D0E602900963035 /* main.m */; };
+		B190E74F1D0E602900963035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B190E74E1D0E602900963035 /* Assets.xcassets */; };
+		B190E7521D0E602900963035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B190E7501D0E602900963035 /* LaunchScreen.storyboard */; };
+		B190E7931D0E60EC00963035 /* LocalMusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E75D1D0E60EC00963035 /* LocalMusicController.m */; };
+		B190E7941D0E60EC00963035 /* NetworkingSongController.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E75F1D0E60EC00963035 /* NetworkingSongController.m */; };
+		B190E7951D0E60EC00963035 /* FBOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7621D0E60EC00963035 /* FBOperate.m */; };
+		B190E7961D0E60EC00963035 /* music.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7641D0E60EC00963035 /* music.m */; };
+		B190E7971D0E60EC00963035 /* MusicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7661D0E60EC00963035 /* MusicItem.m */; };
+		B190E7981D0E60EC00963035 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7681D0E60EC00963035 /* MusicModel.m */; };
+		B190E7991D0E60EC00963035 /* HuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E76B1D0E60EC00963035 /* HuView.m */; };
+		B190E79A1D0E60EC00963035 /* LocalMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E76D1D0E60EC00963035 /* LocalMusicCell.m */; };
+		B190E79B1D0E60EC00963035 /* LocalMusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B190E76E1D0E60EC00963035 /* LocalMusicCell.xib */; };
+		B190E79E1D0E60EC00963035 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7741D0E60EC00963035 /* MainController.m */; };
+		B190E79F1D0E60EC00963035 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7761D0E60EC00963035 /* MainViewController.m */; };
+		B190E7A01D0E60EC00963035 /* LineCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E77A1D0E60EC00963035 /* LineCircleView.m */; };
+		B190E7A11D0E60EC00963035 /* maxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E77C1D0E60EC00963035 /* maxButton.m */; };
+		B190E7A21D0E60EC00963035 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E77F1D0E60EC00963035 /* AppDelegate.m */; };
+		B190E7A31D0E60EC00963035 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B190E7801D0E60EC00963035 /* Info.plist */; };
+		B190E7A41D0E60EC00963035 /* SDMusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7841D0E60EC00963035 /* SDMusicController.m */; };
+		B190E7A51D0E60EC00963035 /* SDMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7881D0E60EC00963035 /* SDMusicCell.m */; };
+		B190E7A61D0E60EC00963035 /* SDMusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B190E7891D0E60EC00963035 /* SDMusicCell.xib */; };
+		B190E7A71D0E60EC00963035 /* FMData.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E78C1D0E60EC00963035 /* FMData.m */; };
+		B190E7A81D0E60EC00963035 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E78E1D0E60EC00963035 /* HttpTool.m */; };
+		B190E7A91D0E60EC00963035 /* xTTBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7901D0E60EC00963035 /* xTTBLE.m */; };
+		B190E7AA1D0E60EC00963035 /* xTTBLEdata.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7921D0E60EC00963035 /* xTTBLEdata.m */; };
+		B190E7B11D0E62B500963035 /* JinnPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7B01D0E62B500963035 /* JinnPopMenu.m */; };
+		B190E7B41D0E634400963035 /* TXHRrettyRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7B21D0E634400963035 /* TXHRrettyRuler.m */; };
+		B190E7B51D0E634400963035 /* TXHRulerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B190E7B31D0E634400963035 /* TXHRulerScrollView.m */; };
+		B190E7B71D0E671800963035 /* CXingKaiHKS-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B190E7B61D0E671800963035 /* CXingKaiHKS-Bold.otf */; };
+		B190E7B91D0E672A00963035 /* MHGKyokashotaiTHK-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B190E7B81D0E672A00963035 /* MHGKyokashotaiTHK-Light.otf */; };
+		B56C258D0E49FE52786EF084 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E117F8A5CF8B7CCA8E70AAC /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E117F8A5CF8B7CCA8E70AAC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB0FB7D08284A21F7CB867B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B190E73F1D0E602900963035 /* musicPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B190E7431D0E602900963035 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B190E74E1D0E602900963035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B190E7511D0E602900963035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B190E75C1D0E60EC00963035 /* LocalMusicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalMusicController.h; sourceTree = "<group>"; };
+		B190E75D1D0E60EC00963035 /* LocalMusicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalMusicController.m; sourceTree = "<group>"; };
+		B190E75E1D0E60EC00963035 /* NetworkingSongController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingSongController.h; sourceTree = "<group>"; };
+		B190E75F1D0E60EC00963035 /* NetworkingSongController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingSongController.m; sourceTree = "<group>"; };
+		B190E7611D0E60EC00963035 /* FBOperate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOperate.h; sourceTree = "<group>"; };
+		B190E7621D0E60EC00963035 /* FBOperate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBOperate.m; sourceTree = "<group>"; };
+		B190E7631D0E60EC00963035 /* music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = music.h; sourceTree = "<group>"; };
+		B190E7641D0E60EC00963035 /* music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = music.m; sourceTree = "<group>"; };
+		B190E7651D0E60EC00963035 /* MusicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicItem.h; sourceTree = "<group>"; };
+		B190E7661D0E60EC00963035 /* MusicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicItem.m; sourceTree = "<group>"; };
+		B190E7671D0E60EC00963035 /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		B190E7681D0E60EC00963035 /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		B190E76A1D0E60EC00963035 /* HuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuView.h; sourceTree = "<group>"; };
+		B190E76B1D0E60EC00963035 /* HuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuView.m; sourceTree = "<group>"; };
+		B190E76C1D0E60EC00963035 /* LocalMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalMusicCell.h; sourceTree = "<group>"; };
+		B190E76D1D0E60EC00963035 /* LocalMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalMusicCell.m; sourceTree = "<group>"; };
+		B190E76E1D0E60EC00963035 /* LocalMusicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalMusicCell.xib; sourceTree = "<group>"; };
+		B190E7731D0E60EC00963035 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		B190E7741D0E60EC00963035 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		B190E7751D0E60EC00963035 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B190E7761D0E60EC00963035 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B190E7791D0E60EC00963035 /* LineCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineCircleView.h; sourceTree = "<group>"; };
+		B190E77A1D0E60EC00963035 /* LineCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineCircleView.m; sourceTree = "<group>"; };
+		B190E77B1D0E60EC00963035 /* maxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maxButton.h; sourceTree = "<group>"; };
+		B190E77C1D0E60EC00963035 /* maxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maxButton.m; sourceTree = "<group>"; };
+		B190E77E1D0E60EC00963035 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B190E77F1D0E60EC00963035 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B190E7801D0E60EC00963035 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B190E7831D0E60EC00963035 /* SDMusicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMusicController.h; sourceTree = "<group>"; };
+		B190E7841D0E60EC00963035 /* SDMusicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMusicController.m; sourceTree = "<group>"; };
+		B190E7871D0E60EC00963035 /* SDMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMusicCell.h; sourceTree = "<group>"; };
+		B190E7881D0E60EC00963035 /* SDMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMusicCell.m; sourceTree = "<group>"; };
+		B190E7891D0E60EC00963035 /* SDMusicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDMusicCell.xib; sourceTree = "<group>"; };
+		B190E78B1D0E60EC00963035 /* FMData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMData.h; sourceTree = "<group>"; };
+		B190E78C1D0E60EC00963035 /* FMData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMData.m; sourceTree = "<group>"; };
+		B190E78D1D0E60EC00963035 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		B190E78E1D0E60EC00963035 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		B190E78F1D0E60EC00963035 /* xTTBLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xTTBLE.h; sourceTree = "<group>"; };
+		B190E7901D0E60EC00963035 /* xTTBLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xTTBLE.m; sourceTree = "<group>"; };
+		B190E7911D0E60EC00963035 /* xTTBLEdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xTTBLEdata.h; sourceTree = "<group>"; };
+		B190E7921D0E60EC00963035 /* xTTBLEdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xTTBLEdata.m; sourceTree = "<group>"; };
+		B190E7AC1D0E62AB00963035 /* TXHRrettyRuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXHRrettyRuler.h; sourceTree = "<group>"; };
+		B190E7AD1D0E62AB00963035 /* TXHRulerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXHRulerScrollView.h; sourceTree = "<group>"; };
+		B190E7AF1D0E62B500963035 /* JinnPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinnPopMenu.h; sourceTree = "<group>"; };
+		B190E7B01D0E62B500963035 /* JinnPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinnPopMenu.m; sourceTree = "<group>"; };
+		B190E7B21D0E634400963035 /* TXHRrettyRuler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXHRrettyRuler.m; sourceTree = "<group>"; };
+		B190E7B31D0E634400963035 /* TXHRulerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXHRulerScrollView.m; sourceTree = "<group>"; };
+		B190E7B61D0E671800963035 /* CXingKaiHKS-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CXingKaiHKS-Bold.otf"; sourceTree = "<group>"; };
+		B190E7B81D0E672A00963035 /* MHGKyokashotaiTHK-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MHGKyokashotaiTHK-Light.otf"; sourceTree = "<group>"; };
+		D685CE0A524DC0F479838C42 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B190E73C1D0E602900963035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56C258D0E49FE52786EF084 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17702E3E3CBAFBCDE42834DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FB0FB7D08284A21F7CB867B /* Pods.debug.xcconfig */,
+				D685CE0A524DC0F479838C42 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B190E7361D0E602900963035 = {
+			isa = PBXGroup;
+			children = (
+				B190E7411D0E602900963035 /* musicPlay */,
+				B190E7401D0E602900963035 /* Products */,
+				17702E3E3CBAFBCDE42834DB /* Pods */,
+				BAB76C7515096FD5407F8D81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B190E7401D0E602900963035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B190E73F1D0E602900963035 /* musicPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B190E7411D0E602900963035 /* musicPlay */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7591D0E60EC00963035 /* Classes */,
+				B190E7421D0E602900963035 /* Supporting Files */,
+			);
+			path = musicPlay;
+			sourceTree = "<group>";
+		};
+		B190E7421D0E602900963035 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7B81D0E672A00963035 /* MHGKyokashotaiTHK-Light.otf */,
+				B190E7B61D0E671800963035 /* CXingKaiHKS-Bold.otf */,
+				B190E7501D0E602900963035 /* LaunchScreen.storyboard */,
+				B190E74E1D0E602900963035 /* Assets.xcassets */,
+				B190E7431D0E602900963035 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B190E7591D0E60EC00963035 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B190E75A1D0E60EC00963035 /* LocalMusic */,
+				B190E7711D0E60EC00963035 /* Main */,
+				B190E77D1D0E60EC00963035 /* Other */,
+				B190E7811D0E60EC00963035 /* SDMusic */,
+				B190E78A1D0E60EC00963035 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B190E75A1D0E60EC00963035 /* LocalMusic */ = {
+			isa = PBXGroup;
+			children = (
+				B190E75B1D0E60EC00963035 /* Controller */,
+				B190E7601D0E60EC00963035 /* Model */,
+				B190E7691D0E60EC00963035 /* View */,
+			);
+			path = LocalMusic;
+			sourceTree = "<group>";
+		};
+		B190E75B1D0E60EC00963035 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B190E75C1D0E60EC00963035 /* LocalMusicController.h */,
+				B190E75D1D0E60EC00963035 /* LocalMusicController.m */,
+				B190E75E1D0E60EC00963035 /* NetworkingSongController.h */,
+				B190E75F1D0E60EC00963035 /* NetworkingSongController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B190E7601D0E60EC00963035 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7611D0E60EC00963035 /* FBOperate.h */,
+				B190E7621D0E60EC00963035 /* FBOperate.m */,
+				B190E7631D0E60EC00963035 /* music.h */,
+				B190E7641D0E60EC00963035 /* music.m */,
+				B190E7651D0E60EC00963035 /* MusicItem.h */,
+				B190E7661D0E60EC00963035 /* MusicItem.m */,
+				B190E7671D0E60EC00963035 /* MusicModel.h */,
+				B190E7681D0E60EC00963035 /* MusicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B190E7691D0E60EC00963035 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B190E76A1D0E60EC00963035 /* HuView.h */,
+				B190E76B1D0E60EC00963035 /* HuView.m */,
+				B190E76C1D0E60EC00963035 /* LocalMusicCell.h */,
+				B190E76D1D0E60EC00963035 /* LocalMusicCell.m */,
+				B190E76E1D0E60EC00963035 /* LocalMusicCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B190E7711D0E60EC00963035 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7721D0E60EC00963035 /* Controller */,
+				B190E7771D0E60EC00963035 /* Model */,
+				B190E7781D0E60EC00963035 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B190E7721D0E60EC00963035 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7731D0E60EC00963035 /* MainController.h */,
+				B190E7741D0E60EC00963035 /* MainController.m */,
+				B190E7751D0E60EC00963035 /* MainViewController.h */,
+				B190E7761D0E60EC00963035 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B190E7771D0E60EC00963035 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B190E7781D0E60EC00963035 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7791D0E60EC00963035 /* LineCircleView.h */,
+				B190E77A1D0E60EC00963035 /* LineCircleView.m */,
+				B190E77B1D0E60EC00963035 /* maxButton.h */,
+				B190E77C1D0E60EC00963035 /* maxButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B190E77D1D0E60EC00963035 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7AE1D0E62B500963035 /* JinnPopMenu */,
+				B190E7AB1D0E62AB00963035 /* PrettyRulerClass */,
+				B190E77E1D0E60EC00963035 /* AppDelegate.h */,
+				B190E77F1D0E60EC00963035 /* AppDelegate.m */,
+				B190E7801D0E60EC00963035 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B190E7811D0E60EC00963035 /* SDMusic */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7821D0E60EC00963035 /* Controller */,
+				B190E7851D0E60EC00963035 /* Model */,
+				B190E7861D0E60EC00963035 /* View */,
+			);
+			path = SDMusic;
+			sourceTree = "<group>";
+		};
+		B190E7821D0E60EC00963035 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7831D0E60EC00963035 /* SDMusicController.h */,
+				B190E7841D0E60EC00963035 /* SDMusicController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B190E7851D0E60EC00963035 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B190E7861D0E60EC00963035 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7871D0E60EC00963035 /* SDMusicCell.h */,
+				B190E7881D0E60EC00963035 /* SDMusicCell.m */,
+				B190E7891D0E60EC00963035 /* SDMusicCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B190E78A1D0E60EC00963035 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B190E78B1D0E60EC00963035 /* FMData.h */,
+				B190E78C1D0E60EC00963035 /* FMData.m */,
+				B190E78D1D0E60EC00963035 /* HttpTool.h */,
+				B190E78E1D0E60EC00963035 /* HttpTool.m */,
+				B190E78F1D0E60EC00963035 /* xTTBLE.h */,
+				B190E7901D0E60EC00963035 /* xTTBLE.m */,
+				B190E7911D0E60EC00963035 /* xTTBLEdata.h */,
+				B190E7921D0E60EC00963035 /* xTTBLEdata.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		B190E7AB1D0E62AB00963035 /* PrettyRulerClass */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7AC1D0E62AB00963035 /* TXHRrettyRuler.h */,
+				B190E7B21D0E634400963035 /* TXHRrettyRuler.m */,
+				B190E7AD1D0E62AB00963035 /* TXHRulerScrollView.h */,
+				B190E7B31D0E634400963035 /* TXHRulerScrollView.m */,
+			);
+			path = PrettyRulerClass;
+			sourceTree = "<group>";
+		};
+		B190E7AE1D0E62B500963035 /* JinnPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B190E7AF1D0E62B500963035 /* JinnPopMenu.h */,
+				B190E7B01D0E62B500963035 /* JinnPopMenu.m */,
+			);
+			path = JinnPopMenu;
+			sourceTree = "<group>";
+		};
+		BAB76C7515096FD5407F8D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E117F8A5CF8B7CCA8E70AAC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B190E73E1D0E602900963035 /* musicPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B190E7561D0E602900963035 /* Build configuration list for PBXNativeTarget "musicPlay" */;
+			buildPhases = (
+				B6BE5663211D6E99A23AD587 /* Check Pods Manifest.lock */,
+				B190E73B1D0E602900963035 /* Sources */,
+				B190E73C1D0E602900963035 /* Frameworks */,
+				B190E73D1D0E602900963035 /* Resources */,
+				F339C96DDB87AA3C27F6FCBA /* Embed Pods Frameworks */,
+				D0EAC7BD463E5064C3E7F224 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = musicPlay;
+			productName = musicPlay;
+			productReference = B190E73F1D0E602900963035 /* musicPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B190E7371D0E602900963035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kaidan;
+				TargetAttributes = {
+					B190E73E1D0E602900963035 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B190E73A1D0E602900963035 /* Build configuration list for PBXProject "musicPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B190E7361D0E602900963035;
+			productRefGroup = B190E7401D0E602900963035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B190E73E1D0E602900963035 /* musicPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B190E73D1D0E602900963035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B190E7A61D0E60EC00963035 /* SDMusicCell.xib in Resources */,
+				B190E7521D0E602900963035 /* LaunchScreen.storyboard in Resources */,
+				B190E74F1D0E602900963035 /* Assets.xcassets in Resources */,
+				B190E7A31D0E60EC00963035 /* Info.plist in Resources */,
+				B190E79B1D0E60EC00963035 /* LocalMusicCell.xib in Resources */,
+				B190E7B71D0E671800963035 /* CXingKaiHKS-Bold.otf in Resources */,
+				B190E7B91D0E672A00963035 /* MHGKyokashotaiTHK-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6BE5663211D6E99A23AD587 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0EAC7BD463E5064C3E7F224 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F339C96DDB87AA3C27F6FCBA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B190E73B1D0E602900963035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B190E7441D0E602900963035 /* main.m in Sources */,
+				B190E7A01D0E60EC00963035 /* LineCircleView.m in Sources */,
+				B190E7931D0E60EC00963035 /* LocalMusicController.m in Sources */,
+				B190E7A21D0E60EC00963035 /* AppDelegate.m in Sources */,
+				B190E7B11D0E62B500963035 /* JinnPopMenu.m in Sources */,
+				B190E7971D0E60EC00963035 /* MusicItem.m in Sources */,
+				B190E79F1D0E60EC00963035 /* MainViewController.m in Sources */,
+				B190E79E1D0E60EC00963035 /* MainController.m in Sources */,
+				B190E7AA1D0E60EC00963035 /* xTTBLEdata.m in Sources */,
+				B190E7991D0E60EC00963035 /* HuView.m in Sources */,
+				B190E7A71D0E60EC00963035 /* FMData.m in Sources */,
+				B190E7981D0E60EC00963035 /* MusicModel.m in Sources */,
+				B190E7A51D0E60EC00963035 /* SDMusicCell.m in Sources */,
+				B190E7B51D0E634400963035 /* TXHRulerScrollView.m in Sources */,
+				B190E7951D0E60EC00963035 /* FBOperate.m in Sources */,
+				B190E7A11D0E60EC00963035 /* maxButton.m in Sources */,
+				B190E7B41D0E634400963035 /* TXHRrettyRuler.m in Sources */,
+				B190E79A1D0E60EC00963035 /* LocalMusicCell.m in Sources */,
+				B190E7961D0E60EC00963035 /* music.m in Sources */,
+				B190E7A91D0E60EC00963035 /* xTTBLE.m in Sources */,
+				B190E7941D0E60EC00963035 /* NetworkingSongController.m in Sources */,
+				B190E7A41D0E60EC00963035 /* SDMusicController.m in Sources */,
+				B190E7A81D0E60EC00963035 /* HttpTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B190E7501D0E602900963035 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B190E7511D0E602900963035 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B190E7541D0E602900963035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B190E7551D0E602900963035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B190E7571D0E602900963035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB0FB7D08284A21F7CB867B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/musicPlay/Classes/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.e6878.music;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B190E7581D0E602900963035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D685CE0A524DC0F479838C42 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/musicPlay/Classes/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.e6878.music;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B190E73A1D0E602900963035 /* Build configuration list for PBXProject "musicPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B190E7541D0E602900963035 /* Debug */,
+				B190E7551D0E602900963035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B190E7561D0E602900963035 /* Build configuration list for PBXNativeTarget "musicPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B190E7571D0E602900963035 /* Debug */,
+				B190E7581D0E602900963035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B190E7371D0E602900963035 /* Project object */;
+}
